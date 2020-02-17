@@ -1,0 +1,97 @@
+ /******import all fonts
+         of site from
+         fonts folder *******/
+ @font-face {
+   font-family: Acme;
+   src: url(../fonts/Acme-Regular.ttf);
+ }
+
+ @font-face {
+   font-family: Lobster;
+   src: url(../fonts/Lobster-Regular.ttf);
+ }
+
+ @font-face {
+   font-family: Patua One;
+   src: url(../fonts/PatuaOne-Regular.ttf);
+ }
+
+ @font-face {
+   font-family: Rubik;
+   src: url(../fonts/Rubik-Regular.ttf);
+ }
+
+ @font-face {
+   font-family: Sniglet;
+   src: url(../fonts/Sniglet-Regular.ttf);
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+ section, header {
+   overflow-x: hidden;
+ }
+
+ :root {
+   --light-black: #2e2c2caf;
+   --bggradient: linear-gradient(to bottom, #dd2476, #ff512f
+     );
+   --light-gray: rgba(255, 255, 255, 0.877);
+ }
+
+ header a{
+   font-family: "Sniglet";
+   font-size: .9em;
+   color: whitesmoke;
+ }
+ header{
+   background: #dd2476;
+   background: var(--bggradient);
+ }
+ header .navbar-toggler-icon {
+   color: whitesmoke;
+ }
+ header .nav-item {
+  padding: .9em;
+ }
+ header .navbar-brand {
+   padding-left: 5rem;
+ }
+ header .nav-link:hover{
+   color:#000;
+ }
+ header .dropdown-item:hover {
+   background: #dd2476;
+   color: whitesmoke;
+ }
+ header .row col-md-5{
+   padding: 4.2vmin 1vmin;
+ }
+ header .row .col-md-7 {
+   padding: 22vmin 1vmin 35vmin 1vmin;
+   font-family: "Rubik";
+   color: whitesmoke;
+ }
+ header .row .col-md-5 img {
+  padding-top: 7vmin;
+  width: 90%
+ }
+
+ header .container .col-md-7 h6{
+   letter-spacing: .3rem;
+ }
+ header .container .col-md-7 h1{
+   font-size: 8.5vmin;
+   font-weight: bold;
+   padding: .1em 0em;
+ }
+ header .container .col-md-7 p{
+   padding: 1vmin 5vmin;
+   font-size: .8rem;
+ }
+ header .container .col-md-7 button {
+   border-radius: 30px;
+   font-weight: bold;
+ }
