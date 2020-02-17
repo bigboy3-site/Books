@@ -1,6 +1,4 @@
- /******import all fonts
-         of site from
-         fonts folder *******/
+ /******import all fonts of site from fonts folder *******/
  @font-face {
    font-family: Acme;
    src: url(../fonts/Acme-Regular.ttf);
@@ -95,3 +93,40 @@
    border-radius: 30px;
    font-weight: bold;
  }
+/* Start Section 1 */
+.section-1 {
+  padding: 18vmin 0;
+}
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: .2em;
+}
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+
+  position: absolute;
+  top: 7vmin;
+  left: -22vmin;
+  background: #fff;
+  border-radius: 3px;
+  text-align: left;
+  padding: 8vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: "Rubik";
+  z-index: 1;
+}
+.section-1 .row .col-md-6 .panel h1{
+  font-weight: bold;
+  padding: 0.4rem 0;
+  font-size: 2rem;
+}
+.section-1 .row .col-md-6 .panel p{
+  font-size: .9rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* End Section 1 */
+/* Sart Section 2 */
+/* End Section 2 */
