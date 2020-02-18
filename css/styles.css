@@ -34,99 +34,163 @@
 
  :root {
    --light-black: #2e2c2caf;
-   --bggradient: linear-gradient(to bottom, #dd2476, #ff512f
-     );
+   --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
    --light-gray: rgba(255, 255, 255, 0.877);
  }
 
- header a{
+ header a {
    font-family: "Sniglet";
    font-size: .9em;
    color: whitesmoke;
  }
- header{
+
+ header {
    background: #dd2476;
    background: var(--bggradient);
  }
+
  header .navbar-toggler-icon {
    color: whitesmoke;
  }
+
  header .nav-item {
-  padding: .9em;
+   padding: .9em;
  }
+
  header .navbar-brand {
-   padding-left: 5rem;
+   padding-left: 3rem;
  }
- header .nav-link:hover{
-   color:#000;
+
+ header .nav-link:hover , .navbar-brand:hover {
+   color: #000;
  }
+
  header .dropdown-item:hover {
    background: #dd2476;
    color: whitesmoke;
  }
- header .row col-md-5{
+
+ header .row col-md-5 {
    padding: 4.2vmin 1vmin;
  }
+
  header .row .col-md-7 {
    padding: 22vmin 1vmin 35vmin 1vmin;
    font-family: "Rubik";
    color: whitesmoke;
  }
+
  header .row .col-md-5 img {
-  padding-top: 7vmin;
-  width: 90%
+   padding-top: 7vmin;
+   width: 90%
  }
 
- header .container .col-md-7 h6{
+ header .container .col-md-7 h6 {
    letter-spacing: .3rem;
  }
- header .container .col-md-7 h1{
+
+ header .container .col-md-7 h1 {
    font-size: 8.5vmin;
    font-weight: bold;
    padding: .1em 0em;
  }
- header .container .col-md-7 p{
+
+ header .container .col-md-7 p {
    padding: 1vmin 5vmin;
+   font-family: "Sniglet";
    font-size: .8rem;
  }
+
  header .container .col-md-7 button {
    border-radius: 30px;
    font-weight: bold;
  }
-/* Start Section 1 */
-.section-1 {
-  padding: 18vmin 0;
-}
-.section-1 .row .col-md-6 .pray img {
-  opacity: 0.8;
-  width: 80%;
-  border-radius: .2em;
-}
-.section-1 .row .col-md-6:last-child {
-  position: relative;
-}
-.section-1 .row .col-md-6 .panel{
 
-  position: absolute;
-  top: 7vmin;
-  left: -22vmin;
-  background: #fff;
-  border-radius: 3px;
-  text-align: left;
-  padding: 8vmin 5vmin 20vmin 10vmin;
-  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-  font-family: "Rubik";
-  z-index: 1;
-}
-.section-1 .row .col-md-6 .panel h1{
-  font-weight: bold;
-  padding: 0.4rem 0;
-  font-size: 2rem;
-}
-.section-1 .row .col-md-6 .panel p{
-  font-size: .9rem;
-  color: rgba(0, 0, 0, 0.5);
-}
-/* End Section 1 */
-/* Sart Section 2 */
-/* End Section 2 */
+ /* Start Section 1 */
+ .section-1 {
+   padding: 18vmin 0;
+ }
+
+ .section-1 .row .col-md-6 .pray img {
+   opacity: 0.8;
+   width: 25rem;
+   border-radius: .2em;
+ }
+
+ .section-1 .row .col-md-6:last-child {
+   position: relative;
+ }
+
+ .section-1 .row .col-md-6 .panel {
+   position: absolute;
+   top: 13vmin;
+   left: -20vmin;
+   background: #fff;
+   border-radius: 3px;
+   text-align: left;
+   padding: 8vmin 5vmin 15vmin 10vmin;
+   box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+   font-family: "Sniglet";
+   z-index: 1;
+ }
+
+ .section-1 .row .col-md-6 .panel h1 {
+   font-weight: bold;
+   padding: 0.4rem 0;
+   font-size: 2rem;
+ }
+
+ .section-1 .row .col-md-6 .panel p {
+   font-size: .9rem;
+   color: rgba(0, 0, 0, 0.5);
+ }
+
+ /* End Section 1 */
+ /* Sart Section 2 */
+ .cover {
+   width: 100%;
+   height: 55vmin;
+   background: url('../img/pexels-photo-452738.jpeg');
+   background-position: -8rem -10rem;
+   background-size: 120%;
+   position: relative;
+ }
+  .cover .content{
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    padding-top: 18vmin;
+    color: whitesmoke;
+  }
+  .cover .content > h1 {
+    font-family: "Patua One";
+    font-size: 6vmin;
+  }
+  .cover .content > p {
+    font-family: "Sniglet";
+    font-size: .9rem;
+  }
+  .numbers {
+    margin-top: -15vmin;
+  }
+  .numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: whitesmoke;
+    width: 17rem;
+    height: 12rem;
+    padding: 3.5rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: 1px 2px 50px 0px rgba(0,0,0,0.3);
+  }
+  .numbers .rect> h1 {
+    font-family: "Patua One";
+    font-size: 3.5rem;
+    color: #dd2476;
+  }
+  .numbers .rect > p{
+    font-family: "Sniglet";
+    font-size: .9rem;
+  }
+ /* End Section 2 */
