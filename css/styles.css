@@ -187,10 +187,60 @@
   .numbers .rect> h1 {
     font-family: "Patua One";
     font-size: 3.5rem;
-    color: #dd2476;
+    color: #e84a5f;
   }
   .numbers .rect > p{
     font-family: "Sniglet";
     font-size: .9rem;
   }
+  .purchase > h1{
+    font-family: "Patua One";
+    padding-top: 15vmin;
+  }
+  .purchase > p {
+    font-family: "Sniglet";
+    font-size: .9rem;
+    padding-bottom: 5vmin;
+  }
+  .purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+  }
+  .card div{
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    box-shadow: 1px 2px 50px 0px rgba(0,0,0,0.3);
+  }
+ .cards  .title {
+    padding:  5vmin 2vmin;
+    background: #e84a5f;
+    color:#fff;
+  }
+  .card .card-text{
+    font-family: "Sniglet";
+    font-size: .9rem;
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+  }
+  .pricing > h2 {
+    font-family: "Patua One";
+    font-weight: 600;
+    padding-bottom: 1.5vmin;
+  }
+  .pricing > .btn {
+    font-family: "Sniglet";
+    background:  #2a363b;
+    color: #fff;
+  }
+  .pricing > .btn:hover {
+    background: #ff847c;
+    color: #2a363b;
+    font-weight: 500;
+  }
  /* End Section 2 */
+ 
+ /* Start Section 3 */
+
+ /* End Section 3 */
