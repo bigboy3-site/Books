@@ -291,5 +291,16 @@
    background: whitesmoke;
    color: #2a363b;
  }
-
  /* End Section 3 */
+ /* Start Section 4 */
+ .section-4 .text-dark {
+   padding-top: 15vmin;
+   font-family: "Patua One";
+ }
+ .section-4 .text-secondary{
+   padding-bottom: 10vmin;
+   font-family: "Sniglet";
+   font-size: .9rem;
+ }
+
+/* End Section 4 */
