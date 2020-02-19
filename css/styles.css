@@ -61,7 +61,7 @@
    padding-left: 3rem;
  }
 
- header .nav-link:hover , .navbar-brand:hover {
+ header .nav-link:hover, .navbar-brand:hover {
    color: #000;
  }
 
@@ -155,92 +155,141 @@
    background-size: 120%;
    position: relative;
  }
-  .cover .content{
-    background: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: 100%;
-    padding-top: 18vmin;
-    color: whitesmoke;
-  }
-  .cover .content > h1 {
-    font-family: "Patua One";
-    font-size: 6vmin;
-  }
-  .cover .content > p {
-    font-family: "Sniglet";
-    font-size: .9rem;
-  }
-  .numbers {
-    margin-top: -15vmin;
-  }
-  .numbers .rect{
-    position: relative;
-    z-index: 1;
-    background: whitesmoke;
-    width: 17rem;
-    height: 12rem;
-    padding: 3.5rem;
-    margin: 1rem;
-    border-radius: .5rem;
-    box-shadow: 1px 2px 50px 0px rgba(0,0,0,0.3);
-  }
-  .numbers .rect> h1 {
-    font-family: "Patua One";
-    font-size: 3.5rem;
-    color: #e84a5f;
-  }
-  .numbers .rect > p{
-    font-family: "Sniglet";
-    font-size: .9rem;
-  }
-  .purchase > h1{
-    font-family: "Patua One";
-    padding-top: 15vmin;
-  }
-  .purchase > p {
-    font-family: "Sniglet";
-    font-size: .9rem;
-    padding-bottom: 5vmin;
-  }
-  .purchase .cards .card {
-    width: 22rem;
-    margin: 3vmin;
-  }
-  .card div{
-    margin: 0;
-    padding: 0;
-  }
-  .card {
-    box-shadow: 1px 2px 50px 0px rgba(0,0,0,0.3);
-  }
- .cards  .title {
-    padding:  5vmin 2vmin;
-    background: #e84a5f;
-    color:#fff;
-  }
-  .card .card-text{
-    font-family: "Sniglet";
-    font-size: .9rem;
-    padding: 2.5rem 3rem;
-    color: var(--light-black);
-  }
-  .pricing > h2 {
-    font-family: "Patua One";
-    font-weight: 600;
-    padding-bottom: 1.5vmin;
-  }
-  .pricing > .btn {
-    font-family: "Sniglet";
-    background:  #2a363b;
-    color: #fff;
-  }
-  .pricing > .btn:hover {
-    background: #ff847c;
-    color: #2a363b;
-    font-weight: 500;
-  }
+
+ .cover .content {
+   background: rgba(0, 0, 0, 0.8);
+   width: 100%;
+   height: 100%;
+   padding-top: 18vmin;
+   color: whitesmoke;
+ }
+
+ .cover .content>h1 {
+   font-family: "Patua One";
+   font-size: 6vmin;
+ }
+
+ .cover .content>p {
+   font-family: "Sniglet";
+   font-size: .9rem;
+ }
+
+ .numbers {
+   margin-top: -15vmin;
+ }
+
+ .numbers .rect {
+   position: relative;
+   z-index: 1;
+   background: whitesmoke;
+   width: 17rem;
+   height: 12rem;
+   padding: 3.5rem;
+   margin: 1rem;
+   border-radius: .5rem;
+   box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.3);
+ }
+
+ .numbers .rect>h1 {
+   font-family: "Patua One";
+   font-size: 3.5rem;
+   color: #e84a5f;
+ }
+
+ .numbers .rect>p {
+   font-family: "Sniglet";
+   font-size: .9rem;
+ }
+
+ .purchase>h1 {
+   font-family: "Patua One";
+   padding-top: 15vmin;
+ }
+
+ .purchase>p {
+   font-family: "Sniglet";
+   font-size: .9rem;
+   padding-bottom: 5vmin;
+ }
+
+ .purchase .cards .card {
+   width: 22rem;
+   margin: 3vmin;
+ }
+
+ .card div {
+   margin: 0;
+   padding: 0;
+ }
+
+ .cards {
+   margin-bottom: 15vmin;
+ }
+
+ .card {
+   box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.3);
+ }
+
+ .cards .title {
+   padding: 5vmin 2vmin;
+   background: #e84a5f;
+   color: #fff;
+ }
+
+ .card .card-text {
+   font-family: "Sniglet";
+   font-size: .9rem;
+   padding: 2.5rem 3rem;
+   color: var(--light-black);
+ }
+
+ .pricing>h2 {
+   font-family: "Patua One";
+   font-weight: 600;
+   padding-bottom: 1.5vmin;
+ }
+
+ .pricing>.btn {
+   font-family: "Sniglet";
+   background: #2a363b;
+   color: #fff;
+ }
+
+ .pricing>.btn:hover {
+   background: #ff847c;
+   color: #2a363b;
+   font-weight: 500;
+ }
+
  /* End Section 2 */
- 
  /* Start Section 3 */
+ .section-3 {
+   height: 70vmin;
+   background: #dd2476;
+   background: var(--bggradient);
+ }
+
+ .row .col-md-12>h1 {
+   font-family: "Patua One";
+   margin-top: 14vmin;
+   color: whitesmoke;
+ }
+
+ .row .col-md-12>p {
+   font-family: "Sniglet";
+   margin-top: 2vmin;
+   position: relative;
+   padding: 5vmin;
+   color: whitesmoke;
+ }
+
+ .desktop {
+   display: inline-block;
+   border-radius: 50px;
+   margin: 2vmin 4.5vmin;
+   padding: 0 2rem;
+   background: whitesmoke;
+   color: #2a363b;
+ }
 
  /* End Section 3 */
