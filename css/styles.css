@@ -327,3 +327,35 @@
  }
 
  /* End Section 4 */
+ /* Start Footer */
+ footer{
+   background: #2a363b;
+   overflow-x: hidden;
+   padding: 12vmin 16vmin;
+ }
+ footer  .text-light {
+   font-family: "Patua One";
+
+ }
+  footer  p {
+    font-family: "Sniglet";
+    font-size: .9rem;
+  }
+ footer  p > span {
+   color: #ff847c;
+ }
+ /* This code remove border of Email box  */
+ footer input {
+   border: 0!important;
+ }
+ footer input::placeholder {
+   color: #fff!important;
+ }
+ footer .input-group .input-group-text {
+   background: var(--bggradient);
+   border: 0;
+ }
+ .column > i {
+   color: #e84a5f;
+ }
+  /* End Footer */
