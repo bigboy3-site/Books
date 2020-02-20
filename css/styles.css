@@ -65,7 +65,10 @@
  header .nav-link:hover, .navbar-brand:hover {
    color: #000;
  }
-
+ header .dropdown-item {
+   font-weight: bold;
+   color: #dd2476;
+ }
  header .dropdown-item:hover {
    background: #dd2476;
    color: whitesmoke;
@@ -82,8 +85,8 @@
  }
 
  header .row .col-md-5 img {
-   padding-top: 7vmin;
-   width: 90%
+   padding-top: 11vmin;
+   width: 95%
  }
 
  header .container .col-md-7 h6 {
@@ -217,12 +220,13 @@
    font-size: .9rem;
    padding-bottom: 5vmin;
  }
-
+ .purchase .cards .flex-it{
+   display: flex;
+ }
  .purchase .cards .card {
    width: 22rem;
    margin: 3vmin;
  }
-
  .card div {
    margin: 0;
    padding: 0;
