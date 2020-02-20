@@ -94,6 +94,9 @@
   .purchase .cards .flex-it {
     margin-left: .125rem;
   }
+  .section-4 .team .card {
+    margin-left: -1rem;
+  }
 
   .section-4 .carousel-inner {
     margin-left: -.7rem;
