@@ -236,9 +236,9 @@
    color: #fff;
  }
 
- .section-2 .card .card-text {
+ .purchase .card .card-text {
    font-family: "Sniglet";
-   font-size: .9rem;
+   font-size: .925rem;
    padding: 2.5rem 3rem;
    color: var(--light-black);
  }
