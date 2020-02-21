@@ -31,7 +31,13 @@
  section, header {
    overflow-x: hidden;
  }
-
+ header button .fas {
+   font-size: 1.8rem;
+   border: none;
+ }
+ header .navbar-toggler {
+   outline: none;
+ }
  :root {
    --light-black: #2e2c2caf;
    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
@@ -65,7 +71,7 @@
  header .nav-link:hover, .navbar-brand:hover {
    color: #000;
  }
- header .dropdown-item {
+ header .dropdown-item{
    font-weight: bold;
    color: #dd2476;
  }
@@ -339,7 +345,7 @@
  footer{
    background: #2a363b;
    overflow-x: hidden;
-   padding: 12vmin 16vmin;
+   padding: 12vmin 10vmin;
  }
  footer  .text-light {
    font-family: "Patua One";
@@ -377,3 +383,12 @@
    color: whitesmoke;
  }
   /* End Footer */
+ /* Sticky navbar  */
+ .sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.795);
+   z-index: 999;
+   transition: all 1.2s ease;
+ }
