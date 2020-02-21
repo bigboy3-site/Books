@@ -35,6 +35,7 @@
    font-size: 1.8rem;
    border: none;
  }
+ /* Remove Hamburger button outline annoying shit */
  header .navbar-toggler {
    outline: none;
  }
